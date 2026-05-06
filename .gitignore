@@ -1,0 +1,54 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+
+# Local tooling
+.claude/
+
+# Generated experiment outputs
+logs/
+plots/
+trace_results/
+validation/
+basis_results/
+basis_results_L23PC_L5TTPC/
+basis_results_old/
+old_debugging_figures/
+old_fitted_params/
+
+# Generated top-level artifacts
+*.log
+*.pkl
+best_params_*.json
+*best_params*.json
+cicr_diagnostic_*.png
+gb_basis_stdp_*.png
+stdp_curve_*.png
+validate_effcai_*.png
+rho_jax.csv
+GluSynapse_CICR copy.mod
+
+# Scratch files in source directories
+scripts/*.diff
+scripts/*.patch
+scripts/*.png
+scripts/rho_jax_dt1.csv
+
+# Reference assets that should stay local
+papers/*.pdf
+papers/Screenshot*.png
+papers/figures/
+
+# Generated data visuals
+biodata/*.png
