@@ -1,9 +1,13 @@
 [project]
 name = "plastyfitting"
 version = "0.1.0"
-description = "Add your description here"
+description = "JAX-accelerated parameter fitting for CICR-extended calcium-based synaptic plasticity models"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "matplotlib>=3.10.8",
+    "jax>=0.4",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "scipy>=1.11",
 ]
